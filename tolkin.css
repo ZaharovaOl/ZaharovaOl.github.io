@@ -1,0 +1,65 @@
+﻿body{
+background-image: url(fon.jpg) ;
+}
+.one{
+	display: inline-block;
+}
+.opys{
+	width: 65%;
+	 float: left;
+}
+.zmist{
+	font-size: 1.3em;
+}
+p,pre{
+	font-family: Georgia;
+	margin-top: 20px;
+	font-size: 1em;
+	text-align: justify;
+}
+pre {
+   white-space: pre-wrap;       /* css-3 */
+   white-space: -moz-pre-wrap;  /* Mozilla, с 1999 года*/
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.marker{
+type: circle;
+}
+.line{
+height: 5px;
+ /*color: black;*/
+background-color: black;
+}
+.front{
+  shape-outside: circle(50%);
+  width: 250px;
+  height: 310px;
+  margin: 10px 10px;
+padding; 10px;
+  float: left;
+border-radius: 50%; 
+    box-shadow: 0 0 0 3px grey, 0 0 1px #333; 
+background: linear-gradient(#2BBE94 50%, #0D464F 50%);
+ 
+}
+.image{
+ shape-outside: circle(50%);
+margin: 5px 50px 5px 5px;
+  float: left;
+width: 350px;
+  height: 200px;
+border-radius: 50%; 
+    box-shadow: 0 0 0 3px grey, 0 0 1px #333; 
+background: linear-gradient(#2BBE94 50%, #0D464F 50%);
+	
+}
+h1,h2{
+text-align: center;
+}
+nav{
+display: inline-block;
+margin-left: 50px;
+
+}
